@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <link rel="stylesheet" href="css/bootstrap.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	 <link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+ 	 <script src=js/jquery.min.js"></script>
+ 	 <script src="js/popper.min.js"></script>
+  	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+ 	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ 	 <style type="text/css">
+ 	 	.container {
+ 	 		width: 100%;
+ 	 	}
+ 	 	.article {
+			
+			padding: 10px;
+			height: auto;
+			overflow: auto;
+		}
+		.article img{
+			display: inline;
+			width: 300px;
+		}
+		.article video {
+			display: inline;
+			width: auto;
+			height: 325px
+		}
+		.article .intro {
+  			display: inline-block;
+			 width: auto;
+ 			 padding: 10px;
+			 vertical-align: top;
+			 font-family: 'Text Me One', sans-serif;
+			 color: white;
+
+		}
+		.article .intro h2 {
+			margin-top: 0;
+ 			text-shadow: 2px 2px #aaa;
+		}
+		.sidebar {
+			border: 1px solid black;
+			padding: 10px;
+			margin: 10px;
+			border-radius: 10px;
+			overflow: auto;
+
+		}
+		.sidebar .item {
+			display: block;
+		}
+		.main{
+			border: 1px solid black;
+			padding: 10px;
+			margin: 10px;
+			border-radius: 10px;
+		}
+		nav {
+			display: inline;
+		}
+		.foot ul li img {
+			width: 100px;
+			height: 50px;
+			padding-bottom: 10px;
+		}
+		.note {
+			margin-bottom: -16px;
+			text-align: center;
+			font-family: 'Text Me One', sans-serif;
+			padding: 100px;
+		}
+		.teacher{
+			margin: 0;
+			font-family: 'Text Me One', sans-serif;
+			padding-bottom: 10px;
+		}
+		.card {
+			border: none;
+		}
+ 	 </style>
+</head>
+<body>
+	<!-- Navigation BAR -->
+	<nav class="navbar fixed-top navbar-expand-sm bg-info navbar-dark" style="box-shadow: 2px 5px 2px;">
+  <a class="navbar-brand" href="#">
+    <img src="img/ebahero.png" alt="logo" style="width:100px;">
+  </a>
+  
+  <div class="navbar-nav">
+    <div class="nav-item">
+      <a class="nav-link" href="index.html" style="font-size: 1em; font-weight: bold;">HOME</a>
+    </div>
+    <div class="nav-item">
+      <a class="nav-link" href="about.html" style="font-size: 1em; font-weight: bold;">ABOUT</a>
+    </div>
+    <div class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" style="font-size: 1em; font-weight: bold;" href="#" id="navbardrop" data-toggle="dropdown" >
+        PROJECT
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="networking.html">Networking</a>
+        <a class="dropdown-item" href="multimedia.html">Multimedia</a>
+        <a class="dropdown-item" href="electro.html">Electro Eng</a>
+      </div>
+    </div>
+  </div>
+  <form class="form-inline" action="/action_page.php" style="margin-left: 620px;">
+    <input class="form-control" type="text" placeholder="Search">
+    <button class="btn btn-success" type="submit">Search</button>
+  </form>
+</nav>
+
+<!-- MAIN BODY -->
+<div class="container bg-su col-md-12 col-sm-12 col-xs-12">
+<div class="row" style="padding: 5px; margin-left: 30px;">
+<div class="col-md-2 col-sm-12 col-xs-12 sidebar">
+  	<div class="card" style="width:200px">
+    <img class="card-img-top" src="img/derry.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h5 class="card-title">DERRY MIFTAH</h5>
+      <p class="card-text">TECHNICAL MANAGER AND HEAD PROJECT</p>
+      <a href="//derrymiftah.ebahero.net" target="_blank" class="btn btn-primary">Detail Info</a>
+    </div>
+   </div>
+  </div>
+
+	<div class="col-md-9 col-sm-12 col-xs-12 bg-info main">
+		<div class="article">
+		
+		<div class="intro">
+		<h2>Video Pengenalan</h2>
+		<p>video ini berisi animasi tentang perjuangan umat manusia dalam bertahan hidup di tengah dunia yang dipenuhi titan pemangsa manusia.</p>
+		</div>
+		<video controls>
+			<source src="media/tatakae.mp4" type="video/mp4">
+		</video>
+		</div>
+	</div>
+
+	
+</div>
+</div>
+<!-- Introduction -->
+<center><h1 class="teacher">Our Tutor</h1></center>
+<div class="teacher col-md-12 col-xs-12" align="center">
+	<div class="row">
+
+		<div class="col-md-4 col-sm-12 col-xs-12">
+ 		 <div class="card" style="width:200px; height: 600px;">
+  	     <img class="card-img-top" src="img/sf.jpg" alt="Card image" style="width:100%">
+   		 <div class="card-body">
+      <h5 class="card-title">DERRY MIFTAH</h5>
+      <p class="card-text">TECHNICAL MANAGER AND HEAD PROJECT NETWORKING</p>
+      <a href="//derrymiftah.ebahero.net" target="_blank" class="btn btn-primary">Detail Info</a>
+   </div>
+   </div>
+   </div>
+   <div class="col-md-4 col-sm-12 col-xs-12">
+ 		 <div class="card" style="width:200px; height: 600px;">
+  	     <img class="card-img-top" src="img/heri.jpg" alt="Card image" style="width:100%">
+   		 <div class="card-body">
+      <h5 class="card-title">HERI AFITRIANSYAH</h5>
+      <p class="card-text">MANAGING DIRECTOR AND PROGRAMMING</p>
+      <a href="//heriafit.github.io" target="_blank" class="btn btn-primary">Detail Info</a>
+   </div>
+   </div>
+   </div>
+   <div class="col-md-4 col-sm-12 col-xs-12">
+ 		 <div class="card" style="width:200px; height: 600px;">
+  	     <img class="card-img-top" src="img/isan.jpg" alt="Card image" style="width:100%">
+   		 <div class="card-body">
+      <h5 class="card-title">M ICHSAN ABDILAH</h5>
+      <p class="card-text">VICE MANAGING DIRECTOR AND SERVER COMPUTING</p>
+      <a href="//rsudmajalaya.bandungkab.go.id" target="_blank" class="btn btn-primary">Detail Info</a>
+   </div>
+   </div>
+   </div>
+  </div>
+</div>
+
+<div class="note col-md-12 col-xs-12 bg-warning">
+	<h1>ALL YOUR IT SOLUTION IN ONE PLACE</h1>
+	<p>Urban modern Civilization requires latest technology in I.T to be able to compete with each other, EBAHERO IT SCHOOL brings you a one door solution for your I.T Knowledge, with innovative class and confident environment, we strive to make you a future I.T expert along with all our graduated student in TOP Companies around the world. </p>
+	
+</div>
+
+
+<!-- FOOTER -->
+<center>
+<div class="foot bg-primary bg-dark col-md-12 col-xs-12">
+	<div class="row" >
+		<div class="col-md-4 col-xs-4 foot" style="color: white;">
+			<h5>Our Partners</h5>
+			<ul style="list-style:none;">
+				<li><img src="img/cisco.png"></li>
+				<li><img src="img/ibm.jpg"></li>
+				<li><img src="img/sigmalogo.png"></li>
+				<li><img src="img/mikrotik.png"></li>
+			</ul>
+		</div>
+		<div class="col-md-4 col-xs-4 foot"style="color: white;">
+			<h5>Contacts</h5>
+			<p>Kp Ebah RT 01/02 No.21 Desa Cipaku kec. Paseh Bandung TELP : 083821511349 (HUNTING) - 02285963743 (OFFICE)</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.6720807973625!2d107.77123731412675!3d-7.047765994909574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c7285a334647%3A0x914ce2904530b698!2sebahero!5e0!3m2!1sid!2sid!4v1544127924057"></iframe>
+			
+		</div>
+		<div class="col-md-4 col-xs-4 foot"style="color: white;">
+			<h5>PARTNERS WEBSITE</h5>
+			<ul style="list-style: none;">
+				<li><a href="//ebahero.net" target="_blank"><img src="img/ebahero.png"></a></li>
+				<li><a href="//mikrotik.co.id" target="_blank"><img src="img/mikrotik.png"></a></li>
+				<li><a href="//cisco.com" target="_blank"><img src="img/cisco.png"></a></li>
+				<li><a href="#">MULTI SARANA INDONESIA</a></li>
+			</ul>
+		</div>
+</div>
+</div>
+</center>
+<!-- FOOTNOTE -->
+		<div class="footer bg-info col-md-12 col-xs-12">
+	<center><p>Copyrights &copy; 2018 EBAHERO IT SCHOOL</p></center>
+		</div>
+
+</body>
+</html>
